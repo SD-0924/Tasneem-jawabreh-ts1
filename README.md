@@ -4,9 +4,6 @@
 
 - [Description](#description)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Dependencies](#dependencies)
-- [License](#license)
 
 ## Description
 
@@ -17,7 +14,9 @@ This project is a backend API developed using TypeScript and Express, designed f
 ### 1 - Run the Project
 
 To install dependencies and start the project, use the following commands:
+
 ```bash
 npm install
 npm run build
 npm start
+```
