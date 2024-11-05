@@ -22,9 +22,9 @@ router.post('/crop', uploadMiddleware, cropImage);
 router.get('/download/:filename', downloadImage);
 // POST route for filtering images
 
-router.post('/filter', uploadMiddleware, filterImage); // Add this route
+router.post('/filter', uploadMiddleware, filterImage); 
 
 // POST route for watermarking images
-router.post('/watermark', uploadMiddleware, addWatermark); // Add this route
+router.post('/watermark', uploadMiddleware, addWatermark); 
 
 export default router;

@@ -20,7 +20,7 @@ export const filterImage = async (req: Request, res: Response): Promise<void> =>
     if (filter === 'grayscale') {
       image = image.grayscale();
     } else if (filter === 'blur') {
-      image = image.blur(5); // Blur amount can be adjusted
+      image = image.blur(5); 
     } else {
       res.status(400).json({ error: 'Invalid filter type.' });
       return;
