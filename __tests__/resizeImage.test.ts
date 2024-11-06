@@ -3,7 +3,7 @@ import sharp from 'sharp';
 
 jest.mock('sharp');
 jest.setTimeout(10000); // 10 seconds
-describe('Image Resize Function', () => {
+describe('Image Resize Function', () => { 
 
 
   it('should return an error when no image is uploaded', async () => {
