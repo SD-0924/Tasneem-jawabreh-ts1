@@ -1,6 +1,6 @@
 # Image Processing API Project
 
-## Table of Contents
+## Table of Contents  
 
 - [Description](#description)
 - [Usage](#usage)
