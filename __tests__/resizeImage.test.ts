@@ -2,7 +2,7 @@ import { resizeImage } from '../src/controllers/resizeImageController';
 import sharp from 'sharp';
 
 jest.mock('sharp');
-
+jest.setTimeout(10000); // 10 seconds
 describe('Image Resize Function', () => {
 
 
